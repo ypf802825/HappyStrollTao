@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/* 文字相关 */
+.main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+.main .header {
+  height: 80rpx;
+  width: 100%;
+  background-color: #FF9500;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.main .header .position {
+  height: 80rpx;
+  margin-left: 20rpx;
+  width: 60%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.main .header .position .text {
+  width: 80%;
+  margin-left: 10rpx;
+  color: white;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-size: 30rpx;
+  line-height: 80rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.main .header .message {
+  position: fixed;
+  right: 20rpx;
+}
+.main .search {
+  width: 100%;
+  height: 80rpx;
+  background-color: #FF9500;
+}
+.main .search .input {
+  width: 710rpx;
+  margin-left: 20rpx;
+}
+

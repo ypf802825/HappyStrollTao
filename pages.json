@@ -1,0 +1,60 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index/index"
+		}, {
+			"path": "pages/tabbar/around/around"
+		}, {
+			"path": "pages/tabbar/live/live"
+		}, {
+			"path": "pages/tabbar/cart/cart"
+		}, {
+			"path": "pages/tabbar/my/my"
+		}
+	],
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#FF9500",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#FF9500",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/tabbar/index/index",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/indexHL.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/around/around",
+				"iconPath": "static/around.png",
+				"selectedIconPath": "static/aroundHL.png",
+				"text": "周边"
+			},
+			{
+				"pagePath": "pages/tabbar/live/live",
+				"iconPath": "static/live.png",
+				"selectedIconPath": "static/liveHL.png",
+				"text": "直播"
+			},
+			{
+				"pagePath": "pages/tabbar/cart/cart",
+				"iconPath": "static/cart.png",
+				"selectedIconPath": "static/cartHL.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/tabbar/my/my",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/myHL.png",
+				"text": "我的"
+			}
+		]
+	}
+}

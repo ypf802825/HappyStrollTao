@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/tabbar/index/index",
+    "pages/tabbar/around/around",
+    "pages/tabbar/live/live",
+    "pages/tabbar/cart/cart",
+    "pages/tabbar/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#FF9500",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#FF9500",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/index/index",
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/indexHL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/around/around",
+        "iconPath": "static/around.png",
+        "selectedIconPath": "static/aroundHL.png",
+        "text": "周边"
+      },
+      {
+        "pagePath": "pages/tabbar/live/live",
+        "iconPath": "static/live.png",
+        "selectedIconPath": "static/liveHL.png",
+        "text": "直播"
+      },
+      {
+        "pagePath": "pages/tabbar/cart/cart",
+        "iconPath": "static/cart.png",
+        "selectedIconPath": "static/cartHL.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/tabbar/my/my",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/myHL.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
